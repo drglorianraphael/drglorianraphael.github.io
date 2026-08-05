@@ -1,93 +1,162 @@
 <!DOCTYPE html>
-<html><style>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <title>Dr. Gloria N. Raphael | HR Professional &amp; Consultant</title>
+    <style>
+    :root{--primary:#0B3D91;--accent:#B8860B;--text:#333}
+    body {
+        background-color: white;
+        font-family: Arial, sans-serif;
+        color: var(--text);
+        line-height: 1.6;
+        margin: 0;
+        padding: 30px;
+    }
 
+    .container { max-width:900px; margin:0 auto; }
+
+    .topbar {
+        background:var(--primary);
+        padding:15px;
+        text-align:center;
+    }
+
+    .topbar a {
+        color:white;
+        text-decoration:none;
+        margin:12px;
+        font-weight:bold;
+        display:inline-block;
+    }
+
+    h1 { color:var(--primary); font-size:36px; margin:10px 0; }
+    h2 { color:var(--accent); font-size:22px; }
+    h3 { color:var(--primary); border-bottom:2px solid var(--accent); padding-bottom:6px; }
+
+    img.profile { border-radius:50%; border:6px solid var(--accent); width:220px; height:220px; object-fit:cover; display:block; margin:0 auto 20px; }
+
+    p, ul { font-size:17px; }
+
+    .cta { background:var(--primary); color:white; padding:12px 20px; text-decoration:none; border-radius:6px; display:inline-block; margin-right:10px; }
+    .cta.alt { background:var(--accent); }
+
+    footer .small { text-align:center; font-size:14px; color:#666; }
+
+    /* Responsive tweaks */
+    @media (max-width:600px){
+        body{padding:16px}
+        img.profile{width:160px;height:160px}
+    }
+    </style>
+</head>
 <body>
+    <header class="topbar">
+        <nav class="container">
+            <a href="#">Home</a>
+            <a href="about.html">About</a>
+            <a href="services.html">Services</a>
+            <a href="contact.html">Contact</a>
+        </nav>
+    </header>
 
-<div style="display:flex;justify-content:space-between;align-items:center;flex-wrap:wrap;margin:30px 0;">
+    <main class="container">
+        <div style="display:flex;flex-wrap:wrap;gap:20px;align-items:center;justify-content:space-between;margin-top:20px;">
+            <div style="flex:1;min-width:260px;padding-right:20px;">
+                <h1>Dr. Gloria N. Raphael</h1>
+                <h2 style="font-size:18px;font-weight:600;color:var(--primary);">Transforming People, Performance and Organizations through Strategic Human Resource Solutions.</h2>
+                <p style="margin-top:12px;">Welcome to my official professional website. I help organizations build high-performing teams through strategic HR consulting, recruitment, leadership development, performance management, and HR policy implementation.</p>
 
-    <div style="flex:1;min-width:300px;padding-right:20px;">
-        <h2 style="color:#0B3D91;font-size:28px;margin-bottom:10px;">
-            WELCOME TO MY OFFICIAL PROFESSIONAL WEBSITE
-        </h2>
+                <p style="margin-top:18px;">
+                    <a href="mailto:ambdrgloria@gmail.com" class="cta">Email Me</a>
+                    <a href="https://www.linkedin.com/in/dr-gloria-n-raphael-0799b794" target="_blank" class="cta alt">LinkedIn</a>
+                </p>
+            </div>
 
-        <p style="font-size:18px;line-height:1.8;">
-            I help organizations build high-performing teams through strategic HR consulting, recruitment, leadership development, performance management, and HR policy implementation.
+            <div style="width:260px;text-align:center;">
+                <img src="gloria.jpg" alt="Dr. Gloria N. Raphael" class="profile">
+            </div>
+        </div>
+
+        <section style="margin-top:36px;">
+            <h3>Professional Profile</h3>
+            <p>Dr. Gloria N. Raphael is an experienced Human Resource Professional, Consultant, Trainer, and Strategic HR Partner passionate about people development, organizational effectiveness, leadership development, and building strong workplace cultures.</p>
+        </section>
+
+        <section style="margin-top:20px;">
+            <h3>Areas of Expertise</h3>
+            <ul>
+                <li>Human Resource Management</li>
+                <li>Talent Acquisition and Recruitment Strategy</li>
+                <li>Performance Management Systems</li>
+                <li>HR Policies and Employee Handbook Development</li>
+                <li>Organizational Development</li>
+                <li>Leadership and Staff Development Training</li>
+                <li>Employee Engagement and Workplace Culture</li>
+            </ul>
+        </section>
+
+        <section id="services" style="margin-top:20px;">
+            <h3>Consulting &amp; Training Services</h3>
+            <ul>
+                <li>Strategic Human Resource Consulting</li>
+                <li>Recruitment and Talent Acquisition Solutions</li>
+                <li>Leadership and Staff Development Training</li>
+                <li>Performance Management Systems</li>
+                <li>HR Policies and Employee Handbook Development</li>
+                <li>Organizational Development and Workplace Culture Solutions</li>
+            </ul>
+            <p>I support individuals and organizations through strategic HR consulting, professional training, recruitment solutions, and people management strategies that drive growth and excellence.</p>
+        </section>
+
+        <section style="margin-top:20px;">
+            <h3>Professional Highlights</h3>
+            <ul>
+                <li>Experienced Human Resource Professional</li>
+                <li>HR Consultant and Corporate Trainer</li>
+                <li>Talent Acquisition Specialist</li>
+                <li>Employee Development and Engagement Expert</li>
+                <li>Strategic Partner in Organizational Growth</li>
+            </ul>
+        </section>
+
+        <section id="about" style="margin-top:20px;">
+            <h3>About Me</h3>
+            <p>I am passionate about developing people, strengthening organizations, and creating HR solutions that improve employee performance and business success. With extensive experience in Human Resources, I am committed to helping organizations attract, develop, and retain exceptional talent while creating effective systems and positive workplace environments.</p>
+        </section>
+
+        <section id="contact" style="margin-top:20px;">
+            <h3>Contact</h3>
+            <p>Phone / WhatsApp: <a href="https://wa.me/2347078744141">+234 707 874 4141</a></p>
+            <p>Email: <a href="mailto:ambdrgloria@gmail.com">ambdrgloria@gmail.com</a></p>
+        </section>
+
+        <section style="margin-top:20px;">
+            <h3>My Commitment</h3>
+            <p>I am committed to helping individuals and organizations achieve excellence through effective people management, professional development, and strategic human resource solutions.</p>
+        </section>
+
+        <h2 style="margin-top:30px;">Connect With Dr. Gloria N. Raphael</h2>
+        <p>Follow Dr. Gloria N. Raphael on her professional and social media platforms for updates, leadership insights, training programmes, HR resources, and organizational development content.</p>
+        <p>
+            <a href="https://www.linkedin.com/in/dr-gloria-n-raphael-0799b794">LinkedIn</a> |
+            <a href="https://www.instagram.com/drgloriaraphael">Instagram</a> |
+            <a href="https://youtube.com/@seasonedhr">YouTube</a> |
+            <a href="https://t.me/DrGloriaN">Telegram</a> |
+            <a href="https://www.tiktok.com/@dr.gloriaraphael">TikTok</a> |
+            <a href="https://www.facebook.com/share/1EipJMrA4f/">Facebook</a> |
+            <a href="https://www.snapchat.com/add/drgnraphaelcsp">Snapchat</a> |
+            <a href="https://x.com/ambdrgloria">X</a> |
+            <a href="https://www.threads.com/@drgloriaraphael">Threads</a>
         </p>
-    </div>
 
-    <div style="text-align:center;">
-        <img src="gloria.jpg" alt="Dr. Gloria N. Raphael"
-        width="220"
-        style="border-radius:50%;border:6px solid #B8860B;">
-    </div>
+        <p style="text-align:center;color:var(--primary);font-weight:bold;margin-top:18px;">Building People. Strengthening Organizations. Creating Impact.</p>
+        <hr>
 
-</div>
+        <p class="small" style="text-align:center;font-size:14px;color:#666;">© Dr. Gloria N. Raphael. All Rights Reserved.</p>
+    </main>
 
-
-<h1 style="text-align:center;color:#0B3D91;">
-Dr. Gloria N. Raphael
-</h1>
-
-
-<h2 style="text-align:center;color:#0B3D91;font-size:24px;font-weight:bold;text-transform:uppercase;">
-TRANSFORMING PEOPLE, PERFORMANCE, AND ORGANIZATIONS THROUGH STRATEGIC HUMAN RESOURCE SOLUTIONS
-</h2>
-
-
-<h2 style="text-align:center;color:#B8860B;">
-Human Resource Professional | Consultant | Trainer | Talent Acquisition Specialist
-</h2>
-
-
-<p style="text-align:center;margin-top:30px;">
-
-<a href="mailto:ambdrgloria@gmail.com"
-style="background:#0B3D91;color:white;padding:12px 22px;text-decoration:none;border-radius:6px;font-weight:bold;">
-Email Me
-</a>
-
-<a href="https://www.linkedin.com/in/dr-gloria-n-raphael-0799b794"
-target="_blank"
-style="background:#B8860B;color:white;padding:12px 22px;text-decoration:none;border-radius:6px;font-weight:bold;margin-left:15px;">
-LinkedIn
-</a>
-
-</p>
-
-
-<div style="margin:50px auto;max-width:900px;padding:25px;">
-
-<h3 style="text-align:center;color:#0B3D91;font-size:28px;">
-Professional Profile
-</h3>
-
-
-<p style="font-size:18px;line-height:1.9;text-align:justify;">
-Dr. Gloria N. Raphael is an accomplished Human Resource Professional, Consultant, Trainer, and Talent Acquisition Specialist with over 20 years of total work experience and extensive expertise in strategic human resource management, organizational development, performance management, recruitment, leadership development, and employee engagement.
-</p>
-
-
-<p style="font-size:18px;line-height:1.9;text-align:justify;">
-She is the Founder and Principal Consultant of Gloria & Young HR Consulting Ltd, where she provides strategic HR solutions that help organizations attract, develop, and retain exceptional talents while improving business performance.
-</p>
-
-
-<p style="font-size:18px;line-height:1.9;text-align:justify;">
-Dr. Gloria N. Raphael holds a PhD in Human Resource Management, a Master's Degree in Economics, and Bachelor’s Degrees in Economics and Veterinary Medicine. She has also acquired professional certifications and training that strengthen her expertise in leadership, people management, and organizational transformation.
-</p>
-
-
-<p style="font-size:18px;line-height:1.9;text-align:justify;">
-With experience spanning different industries, including manufacturing, Dr. Raphael has successfully contributed to building effective HR systems, developing people strategies, implementing performance frameworks, and driving organizational growth.
-</p>
-
-
-</div>
-
-<hr>
-
-<p style="text-align:center;">
-© Dr. Gloria N. Raphael. All Rights Reserved.
-</p>
+    <footer></footer>
 </body>
 </html>
